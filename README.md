@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](XXX)
+[Live Demo Link](https://azamats-calculator.herokuapp.com/)
 
 ## Getting Started
 
