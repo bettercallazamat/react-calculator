@@ -1,0 +1,24 @@
+.App {
+  font-size: 50px;
+  justify-content: center;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+}
+
+.ButtonPanel {
+  display: flex;
+  justify-content: center;
+}
+
+.Display {
+  display: flex;
+  justify-content: center;
+}
