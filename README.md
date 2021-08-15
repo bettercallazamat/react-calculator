@@ -36,18 +36,18 @@ $ npm run test
 
 ## Author
 
-👤 **Railon Acosta**
+👤 **Azamat Nuriddinov**
 
-- GitHub: [@railonA](https://github.com/RailonA)
-- Linkedin: [@railonAcosta](https://www.linkedin.com/in/railon-acosta-81265180/)
-- Twitter: [@railonAcosta](https://twitter.com/RailonAcosta)
+- Github: [@bettercallazamat](https://github.com/bettercallazamat)
+- Twitter: [@azamat_nuriddin](https://twitter.com/azamat_nuriddin)
+- Linkedin: [Azamat Nuriddinov](https://www.linkedin.com/in/azamat-nuriddinov/)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/RailonA/React-Project-Calculator/issues).
+Feel free to check the [issues page](https://github.com/bettercallazamat/react-calculator/issues).
 
 ## Show your support
 
