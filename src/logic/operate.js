@@ -27,7 +27,7 @@ const operate = (firstNum, secondNum, operation) => {
       break;
 
     case '+/-':
-      result = secondNumber
+      result = secondNum
         ? numTwo * -1
         : numOne * -1;
       break;
