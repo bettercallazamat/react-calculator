@@ -37,7 +37,7 @@ const operate = (firstNum, secondNum, operation) => {
       break;
 
     case '.':
-      result = 0.0;
+      result = numOne + (numTwo.times(Big(0.1).secondNum.length));
       break;
 
     default:
