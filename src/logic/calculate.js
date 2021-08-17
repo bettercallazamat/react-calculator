@@ -1,7 +1,8 @@
 import operate from './operate';
 
 const calculate = (calculator, buttonName) => {
-  let { total, next, operation } = calculator;
+  const cloneCalculator = { ...calculator };
+  let { total, next, operation } = cloneCalculator;
   const operators = ['x', '+', '-', '÷'];
 
   // HELPERS FOR IF STATEMENT READABLITY
