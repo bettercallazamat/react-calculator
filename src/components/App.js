@@ -21,7 +21,6 @@ export default class App extends React.Component {
       btnName,
     );
     this.setState({ ...result });
-    console.log(this.state);
   }
 
   render() {
