@@ -1,22 +1,41 @@
 import '../styles/App.css';
+import React from 'react';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 import calculate from '../logic/calculate';
 
-const App = () => {
-  calculate({
-    next: 0,
-    operation: '+',
-    total: 0,
-  });
-  return (
-    <div className="App">
-      <>
-        <Display />
-        <ButtonPanel />
-      </>
-    </div>
-  );
-};
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
 
-export default App;
+  handleClick(btnName) {
+    const result = calculate(
+      this.state,
+      btnName,
+    );
+    this.setState({ ...result });
+  }
+
+  render() {
+    const { next, total } = this.state;
+    const result = next
+      ? next && next.toString()
+      : total && total.toString();
+
+    return (
+      <div className="App">
+        <>
+          <Display result={result || '0'} />
+          <ButtonPanel clickHandler={this.handleClick} />
+        </>
+      </div>
+    );
+  }
+}
