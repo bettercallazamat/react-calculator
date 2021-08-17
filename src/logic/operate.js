@@ -1,50 +1,24 @@
 import Big from 'big.js';
 
-const operate = (firstNum, secondNum, operation) => {
-  const bigNumOne = firstNum ? new Big(firstNum) : null;
-  const bigNumbTwo = secondNum ? new Big(secondNum) : null;
-  let result;
+const operate = (numOne, numTwo, operation) => {
+  const bigNumOne = numOne ? new Big(numOne) : null;
+  const bigNumTwo = numTwo ? new Big(numTwo) : null;
 
   switch (operation) {
     case '+':
-      result = bigNumOne.plus(bigNumbTwo);
-      break;
-
+      return bigNumOne.plus(bigNumTwo);
     case '-':
-      result = bigNumOne.minus(bigNumbTwo);
-      break;
-
+      return bigNumOne.minus(bigNumTwo);
     case 'x':
-      result = bigNumOne.times(bigNumbTwo);
-      break;
-
-    case '%':
-      result = bigNumOne.mod(bigNumbTwo);
-      break;
-
-    case '/':
-      result = bigNumOne.div(bigNumbTwo);
-      break;
-
-    case '+/-':
-      result = secondNum
-        ? bigNumbTwo * -1
-        : bigNumOne * -1;
-      break;
-
-    case 'AC':
-      result = '0';
-      break;
-
-    case '.':
-      result = bigNumOne + (bigNumbTwo.times(Big(0.1).secondNum.length));
-      break;
-
+      return bigNumOne.times(bigNumTwo);
+    case '÷':
+      if (numTwo === '0') {
+        return null;
+      }
+      return bigNumOne.div(bigNumTwo);
     default:
-      break;
+      return null;
   }
-
-  return result.toString();
 };
 
 export default operate;
