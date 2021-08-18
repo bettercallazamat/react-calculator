@@ -1,24 +1,51 @@
 .App {
   font-size: 50px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 700px;
 }
 
 .Button {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  width: 25%;
   padding: 2px;
-  width: 70px;
-  height: 70px;
-  border: 1px solid black;
+  border: 2px solid #d1d1d1;
+  font-size: 25px;
 }
 
 .ButtonPanel {
+  width: 100%;
+}
+
+.ButtonPanel .btn-group {
   display: flex;
-  justify-content: center;
+  height: 100px;
+}
+
+.Button.gray {
+  background-color: #e0e0e0;
+}
+
+.Button.orange {
+  background-color: #f6913e;
+}
+
+.Button.btnWide {
+  width: 50%;
 }
 
 .Display {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  background-color: #858794;
+  height: 100px;
+  padding: 10px;
+  font-weight: bold;
 }
