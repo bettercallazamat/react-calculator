@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Home page should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="calcDiv"
+  >
+    <div
+      class="calcText"
+    >
+      <h2>
+        Nobody:
+      </h2>
+      <h2>
+        Literally no one:
+      </h2>
+      <h2>
+        YOU: Lets do some math!
+      </h2>
+    </div>
+    <div
+      class="calcApp"
+    >
+      <div
+        class="App"
+      >
+        <div
+          class="Display"
+        >
+          0
+        </div>
+        <div
+          class="ButtonPanel"
+        >
+          <div
+            class="btn-group btn-group1"
+          >
+            <button
+              class="Button gray"
+              type="button"
+            >
+              AC
+            </button>
+            <button
+              class="Button gray"
+              type="button"
+            >
+              +/-
+            </button>
+            <button
+              class="Button gray"
+              type="button"
+            >
+              %
+            </button>
+            <button
+              class="Button orange"
+              type="button"
+            >
+              ÷
+            </button>
+          </div>
+          <div
+            class="btn-group btn-group2"
+          >
+            <button
+              class="Button gray"
+              type="button"
+            >
+              7
+            </button>
+            <button
+              class="Button gray"
+              type="button"
+            >
+              8
+            </button>
+            <button
+              class="Button gray"
+              type="button"
+            >
+              9
+            </button>
+            <button
+              class="Button orange"
+              type="button"
+            >
+              x
+            </button>
+          </div>
+          <div
+            class="btn-group btn-group3"
+          >
+            <button
+              class="Button gray"
+              type="button"
+            >
+              4
+            </button>
+            <button
+              class="Button gray"
+              type="button"
+            >
+              5
+            </button>
+            <button
+              class="Button gray"
+              type="button"
+            >
+              6
+            </button>
+            <button
+              class="Button orange"
+              type="button"
+            >
+              -
+            </button>
+          </div>
+          <div
+            class="btn-group btn-group4"
+          >
+            <button
+              class="Button gray"
+              type="button"
+            >
+              1
+            </button>
+            <button
+              class="Button gray"
+              type="button"
+            >
+              2
+            </button>
+            <button
+              class="Button gray"
+              type="button"
+            >
+              3
+            </button>
+            <button
+              class="Button orange"
+              type="button"
+            >
+              +
+            </button>
+          </div>
+          <div
+            class="btn-group btn-group5"
+          >
+            <button
+              class="Button gray btnWide"
+              type="button"
+            >
+              0
+            </button>
+            <button
+              class="Button gray"
+              type="button"
+            >
+              .
+            </button>
+            <button
+              class="Button orange"
+              type="button"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
