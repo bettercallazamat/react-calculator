@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
   const styles = {
-    // color: 'white',
     listStyleType: 'none',
+    textDecorationLine: 'none',
   };
 
   return (
-    <nav>
+    <nav className="nav">
       <Link style={styles} to="/">
         <h3 className="nav-logo">Math Magicians</h3>
       </Link>
-      <ul className="nav-link">
+      <ul className="nav-items">
         <Link style={styles} to="/">
           <li className="nav-item">Home</li>
         </Link>

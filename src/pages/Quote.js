@@ -1,11 +1,18 @@
+import authorImg from '../walle-john.jpeg';
+
 const Quote = () => (
-  <div>
+  <div className="quoteDiv">
+    <img src={authorImg} alt="author" />
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-      ut labore et dolore magna aliqua.
+      Mathematics is much more than computation with pencil and a
+      paper and getting answers to routine exercises. In fact, it
+      can easily be argued that computation, such as doing long
+      division, is not mathematics at all. Calculators can do the
+      same thing and calculators can only calculate – they cannot
+      do mathematics.
     </p>
     <p>
-      — Lorem ipsum dolor sit amet
+      - John A. Van de Walle
     </p>
   </div>
 );

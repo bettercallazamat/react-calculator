@@ -1,13 +1,30 @@
 const Home = () => (
-  <div>
-    <h1>Home Page</h1>
+  <div className="homeDiv">
+    <h1>Welcome to my Calculator Project</h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+      This project is part of my learning React framework with the aim of building a Calculator
     </p>
+    <p className="list-title">Features List:</p>
+    <ul>
+      <li>Add</li>
+      <li>Subtract</li>
+      <li>Multiply</li>
+      <li>Divide</li>
+      <li>Turn number into percentage</li>
+      <li>Change sign of a numbers</li>
+      <li>Use float numbers</li>
+    </ul>
+    <p className="list-title">Built With:</p>
+    <ul>
+      <li>Node.js</li>
+      <li>React</li>
+      <li>React-DOM</li>
+      <li>React-Create-App</li>
+      <li>React-Router-Dom</li>
+      <li>React Hooks</li>
+      <li>npm</li>
+      <li>Heroku</li>
+    </ul>
   </div>
 );
 
