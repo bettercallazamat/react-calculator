@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <nav className="nav">
       <Link style={styles} to="/">
-        <h3 className="nav-logo">Math Magicians</h3>
+        <h3 className="nav-logo">Calculator</h3>
       </Link>
       <ul className="nav-items">
         <Link style={styles} to="/">

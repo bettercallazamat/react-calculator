@@ -1,15 +1,10 @@
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Family';
+  src: local('Family'), url(../Family.otf) format('opentype');
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #262626;
-  height: 100px;
-  padding: 60px 60px;
-  margin-bottom: 40px;
+* {
+  box-sizing: border-box;
 }
 
 h1,
@@ -41,8 +36,21 @@ a {
   font-size: 25px;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #262626;
+  height: 100px;
+  padding: 60px 60px;
+  margin-bottom: 40px;
+}
+
 .nav-logo {
   color: #f6913e;
+  font-family: 'Family', Arial, sans-serif;
+  font-size: 60px;
+  letter-spacing: 5px;
 }
 
 .nav-items {
