@@ -230,7 +230,4 @@ describe('calculate', () => {
     result = calculate(result, '=');
     expect(result.operation).not.toBe('=');
   });
-
-
-
 });
